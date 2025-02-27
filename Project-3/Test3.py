@@ -6,7 +6,7 @@ while True:
     print("Select an option:")
     print("1. Add Student\n2. Display All Students\n3. Update students Infomation\n4. Delete Student\n5. Display Subjects Offered\n6. Exit")
 
-    choice=input("Enter your choice: ")
+    choice=input("Enter your choice: ")   
 
     if choice=='1':
         print("Enter Student details:")
