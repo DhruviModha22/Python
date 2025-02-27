@@ -6,7 +6,7 @@ while True:
     choice=int(input("Enter the number(1-3): "))
 
         
-    if choice==1:
+    if choice==1:  
         num_input=(int(input("Enter the number of rows for the pattern: ")))
         print("Pattern: ")
         for i in range(1,num_input+1):
