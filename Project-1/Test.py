@@ -16,4 +16,4 @@ sub=2025-age
 
 print("Your birth year is: ",sub)
 
-print("Thank you for your personal information")
+print("Thank you for your personal information")  
