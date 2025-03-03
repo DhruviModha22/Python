@@ -34,7 +34,7 @@ while True:
 
     elif choice == 2:
         """Display summary of dataset"""
-        print("\nData Summary:")
+        print("\nData Summary:") 
         print(f"Total elements in array: {len(arr1)}")
         print(f"Minimum value in array: {min(arr1)}")
         print(f"Maximum value in array: {max(arr1)}")
