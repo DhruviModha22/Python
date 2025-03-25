@@ -7,7 +7,7 @@ class JournalManager:
 
     def Add_entry(self):
         entry=input("Enter your journal entry: ")
-        time=datetime.now().strftime("%y-%m-%d %H:%M:%S")
+        time=datetime.now().strftime("%y-%m-%d %H:%M:%S") #Returns a string representation of the date with the given format
         with open(self.filename,'a')as file:
             file.write(f"{time} - {entry}\n")
         print("Enter added successfully!")
