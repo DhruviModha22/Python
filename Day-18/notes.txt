@@ -1,0 +1,4 @@
+Python is easy to learn.
+It has numerous libraries.
+File handling is one of its features.
+Line 4: Python supports multiple modes of file handling.
