@@ -1,5 +1,10 @@
-def add(a, b):
-    return a + b
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
-print(add(5, 10))       # Integer addition -> 15
-print(add("Hello, ", "World!"))  # String concatenation -> "Hello, World!"
+    def __str__(self):
+        return f"({self.x}, {self.y})"
+
+p = Point(3, 4)
+print(p)  # Output: (3, 4)
